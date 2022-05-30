@@ -7,6 +7,11 @@
  */
 let result = [];
 
+for (let index = 1; index < 6; index++) {
+    result[index] = index;
+}
 
 //export result
 module.exports = result;
+
+console.log (result)

@@ -9,6 +9,10 @@
 let str = "fooziman";
 let result = [];
 
-
+for (let index = 0; index < str.length; index++) {
+    result[index] = str[index];
+    
+}
 //export result
 module.exports = result;
+console.log(result)

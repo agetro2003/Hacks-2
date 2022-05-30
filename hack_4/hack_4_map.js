@@ -7,6 +7,12 @@
  */
 let result = [];
 
+array = [1,3,5,7]
+
+result = array.map(function(x) {
+    return x;
+})
 
 //export result
 module.exports = result;
+console.log(result)

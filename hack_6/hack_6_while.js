@@ -8,7 +8,11 @@
  */
 let str = "fooziman";
 let result = [];
-
-
+let index = 0
+while (index < str.length) {
+    result[index] = str[index];
+    index++;
+}
 //export result
 module.exports = result;
+console.log(result)
